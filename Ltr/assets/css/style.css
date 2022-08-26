@@ -2679,10 +2679,13 @@ font-size: 14px;
 .service-card-text-2 p:last-child {
   margin-bottom: 0;
 }
-
+#details img {
+  height: 250px !important;
+}
 .forum-details img {
   margin-bottom: 30px;
   border-radius: 10px;
+  width: 100%;
 }
 
 .forum-details h1 {
@@ -3807,7 +3810,7 @@ font-size: 14px;
   position: absolute;
 }
 .footer-logo img{
-  width: 200px;
+  width: 150px;
 }
 .footer-shape:nth-child(1) {
   top: 50%;
@@ -3910,7 +3913,9 @@ font-size: 14px;
   font-size: 18px;
   margin-bottom: 7px;
 }
-
+.footer-address-item img {
+  width: 60px;
+}
 .footer-address-text p {
   font-size: 16px;
   margin-bottom: 0;
